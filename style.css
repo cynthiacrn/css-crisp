@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Regular.ttf");
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Medium.ttf");
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("/fonts/Gilroy-Bold.ttf");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+}
+
 .wrapper {
-    background: aqua;
+    background: black;
 }
