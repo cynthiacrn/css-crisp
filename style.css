@@ -71,6 +71,12 @@ p, span, div, a {
   border: none;
 }
 
+.tickets-legend {
+  color: #666666;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .ticket:nth-child(even) {
   background: transparent;
 }
@@ -78,4 +84,17 @@ p, span, div, a {
 .ticket:nth-child(even):hover, .ticket:nth-child(odd):hover {
   background-color: #ECF0FF !important;
   border-radius: 8px;
+}
+
+.badge {
+  border-radius: 8px;
+}
+
+.badge--red {
+  background: #FCD1FF;
+}
+
+.badge--green {
+  color: #ffffff;
+  background: #000000 ;
 }
