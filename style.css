@@ -108,7 +108,7 @@ p, span, div, a {
   font-family: 'Gilroy', sans-serif !important;
 }
 
-.form-field textarea, .form-field label, .form-field .button-nest, .field-attach {
+.form-field textarea, .form-field label, .form-field .button-nest, .field-attach, .form-field {
   border-radius: 8px;
 }
 
@@ -126,4 +126,10 @@ p, span, div, a {
 
 .message-header .message-team {
   color: #000000;
+}
+
+.banner.banner--info {
+  background: #ecf0ff;
+  color: #173cc1;
+  border-radius: 5px;
 }
