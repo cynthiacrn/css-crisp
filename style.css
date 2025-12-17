@@ -108,7 +108,7 @@ p, span, div, a {
   font-family: 'Gilroy', sans-serif !important;
 }
 
-.form-field textarea, .form-field label, .form-field .button-nest {
+.form-field textarea, .form-field label, .form-field .button-nest, .message, .field-attach {
   border-radius: 8px;
 }
 
