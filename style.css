@@ -28,7 +28,6 @@ body {
 }
 
 .button--black {
-  font-size: 16.11px;
   background-color: #173cc1;
   color: #ffffff;
   border: 1px solid #173cc1;
@@ -36,6 +35,8 @@ body {
 
 .button--reverse {
   background: #ffffff;
+  border-radius: 100%;
+  padding: 12px;
 }
 
 .button--reverse:hover {
