@@ -39,8 +39,8 @@ p, span, div, a {
 
 .button--reverse {
   background: #ffffff;
-  border-radius: 100%;
   padding: 12px;
+  border: #173cc1;
 }
 
 .button--reverse:hover {
@@ -74,7 +74,7 @@ p, span, div, a {
 .tickets-legend {
   color: #666666;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600 !important;
 }
 
 .ticket:nth-child(even) {
@@ -92,6 +92,7 @@ p, span, div, a {
 
 .badge--red {
   background: #FCD1FF;
+  color: #000000;
 }
 
 .badge--green {
