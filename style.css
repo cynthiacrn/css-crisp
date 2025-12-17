@@ -1,45 +1,51 @@
-body {}
+body {
+  font-family: 'Gilroy', sans-serif !important;
+}
 
 .title {
-    font-family: 'Gilroy', sans-serif !important;
-    font-weight: 600 !important;
-    font-size: 25px !important;
+  font-family: 'Gilroy', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 25px !important;
 }
 
 .button {
-    font-family: 'Gilroy', sans-serif !important;
-    font-weight: 700;
-    padding: 10px 20px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 30px;
-    border: none;
-    overflow: hidden;
-    transition: .3s;
-    position: relative;
-    z-index: 0;
-    font-size: 12.8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+  font-family: 'Gilroy', sans-serif !important;
+  font-weight: 700;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  overflow: hidden;
+  transition: .3s;
+  position: relative;
+  z-index: 0;
+  font-size: 12.8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .button--black {
-    font-size: 16.11px;
-    background-color: #173cc1;
-    color: #ffffff;
-    border: 1px solid #173cc1;
+  font-size: 16.11px;
+  background-color: #173cc1;
+  color: #ffffff;
+  border: 1px solid #173cc1;
 }
 
 .button--reverse {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .button--reverse:hover {
-    background: #173cc1;
+  background: #173cc1;
 }
 
 .button--black:hover {
- background: #0E1B7D;
+  background: #0E1B7D;
+}
+
+.menu-filter.menu-filter--active a {
+  background: #173cc1;
 }
