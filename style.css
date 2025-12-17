@@ -34,7 +34,10 @@ body {}
 
 .button--reverse {
     background: #ffffff;
-    border: none;
+}
+
+.button--reverse:hover {
+    background: #173cc1;
 }
 
 .button--black:hover {
