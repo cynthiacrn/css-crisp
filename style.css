@@ -2,7 +2,7 @@ body {
   font-family: 'Gilroy', sans-serif !important;
 }
 
-p, span, div {
+p, span, div, a {
   font-family: 'Gilroy', sans-serif !important;
 }
 
@@ -51,6 +51,10 @@ p, span, div {
   background: #0E1B7D;
 }
 
+.menu-filter a:hover {
+  background: #ECF0FF;
+}
+
 .menu-filter.menu-filter--active a {
   background: #173cc1;
 }
@@ -59,8 +63,14 @@ p, span, div {
   padding: 12px;
 }
 
+.ticket {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
 .ticket:nth-child(even) {
-  background-color: #ECF0FF;
+  background: transparent;
 }
 
 .ticket:hover {
