@@ -9,7 +9,7 @@ body {}
 .button {
     font-family: 'Gilroy', sans-serif !important;
     font-weight: 700;
-    /*padding: 10px 20px;*/
+    padding: 10px 20px;
     cursor: pointer;
     outline: none;
     border-radius: 30px;
@@ -19,7 +19,6 @@ body {}
     position: relative;
     z-index: 0;
     font-size: 12.8px;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,9 +26,7 @@ body {}
 }
 
 .button--black {
-    height: 50px;
     font-size: 16.11px;
-    min-width: 50px;
     background-color: #173cc1;
     color: #ffffff;
     border: 1px solid #173cc1;
@@ -37,4 +34,5 @@ body {}
 
 .button--reverse {
     background: #ffffff;
+    border: none;
 }
