@@ -2,6 +2,10 @@ body {
   font-family: 'Gilroy', sans-serif !important;
 }
 
+p {
+  font-family: 'Gilroy', sans-serif !important;
+}
+
 .title {
   font-family: 'Gilroy', sans-serif !important;
   font-weight: 600 !important;
@@ -49,4 +53,8 @@ body {
 
 .menu-filter.menu-filter--active a {
   background: #173cc1;
+}
+
+.button--icon.button--icon-lone {
+  padding: 0;
 }
