@@ -58,3 +58,11 @@ p, span, div,  {
 .button--icon.button--icon-lone {
   padding: 12px;
 }
+
+.ticket:nth-child(even) {
+  background-color: #ECF0FF;
+}
+
+.ticket:hover {
+  background-color: #ECF0FF;
+}
