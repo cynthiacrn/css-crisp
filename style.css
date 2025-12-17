@@ -111,3 +111,11 @@ p, span, div, a {
 .form-field textarea, .form-field label, .form-field .button-nest {
   border-radius: 8px;
 }
+
+.message.message--incoming::before {
+  background: #FCD1FF;
+}
+
+.message.message--outgoing::before {
+  background: #173cc1;
+}
