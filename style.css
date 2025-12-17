@@ -18,7 +18,7 @@ body {}
     transition: .3s;
     position: relative;
     z-index: 0;
-    font-size: 12.8px !important;
+    font-size: 12.8px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -26,11 +26,11 @@ body {}
     text-decoration: none;
 }
 
-.button--black {
-    height: 50px;
-    font-size: 16.11px;
-    min-width: 50px;
-    background-color: #173cc1;
-    color: #ffffff;
-    border: 1px solid #173cc1;
-}
+/*.button--black {*/
+/*    height: 50px;*/
+/*    font-size: 16.11px;*/
+/*    min-width: 50px;*/
+/*    background-color: #173cc1;*/
+/*    color: #ffffff;*/
+/*    border: 1px solid #173cc1;*/
+/*}*/
