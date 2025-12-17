@@ -63,13 +63,20 @@ p, span, div, a {
   padding: 12px;
 }
 
+.tickets {
+  border: none;
+}
+
+.ticket {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .ticket:nth-child(even) {
   background: transparent;
 }
 
 .ticket:nth-child(even):hover, .ticket:nth-child(odd):hover {
   background-color: #ECF0FF !important;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
   border-radius: 4px;
 }
