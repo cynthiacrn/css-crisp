@@ -99,3 +99,11 @@ p, span, div, a {
   color: #ffffff;
   background: #000000 ;
 }
+
+.message-content {
+  font-family: 'Gilroy', sans-serif !important;
+}
+
+.see-all-tickets  {
+  font-family: 'Gilroy', sans-serif !important;
+}
