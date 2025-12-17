@@ -108,14 +108,22 @@ p, span, div, a {
   font-family: 'Gilroy', sans-serif !important;
 }
 
-.form-field textarea, .form-field label, .form-field .button-nest, .message, .field-attach {
+.form-field textarea, .form-field label, .form-field .button-nest, .field-attach {
   border-radius: 8px;
 }
 
+.message {
+  border-radius: 0 8px 8px 0;
+}
+
 .message.message--incoming::before {
-  background: #FCD1FF;
+  background: #173cc1;
 }
 
 .message.message--outgoing::before {
-  background: #173cc1;
+  background: #FCD1FF;
+}
+
+.message-header .message-team {
+  color: #000000;
 }
